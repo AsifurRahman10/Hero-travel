@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+/* shared style */
+
+.container{
+    max-width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: rgba(255, 84, 0, 1);
+    border: rgba(255, 84, 0, 1);
+    color: white;
+    text-align: center;
+}
+
+.orange-text{
+    color: rgba(255, 84, 0, 1);
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.regular-text{
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.8);
+}
+
+/* navbar */
+
+.nav-bar{
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    gap: 17px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo h3{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-bar ul{
+    list-style: none;
+    gap: 44px;
+}
+
+.menu{
+    display: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: rgba(66, 66, 71, 1);
+}
+
+.nav-home{
+    font-weight: bold;
+}
+
+/* banner */
+
+.banner{
+    background-image: linear-gradient( rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)),
+    url("../Images/banner.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+    gap: 24px;
+    color: white;
+}
+
+.banner h1{
+    font-size: 3.375rem;
+    font-weight: 800;
+}
+
+.banner p{
+    max-width: 676px;
+    font-size: 1rem;
+}
+
+.form{
+    width: 70%;
+    backdrop-filter: blur(0.1px);
+    background: rgba(255, 255, 255, 0.259);
+    padding: 16px;
+    border-radius: 8px;
+    gap: 24px;
+}
+.form input, select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.5);
+    padding-left: 10px;
+}
+
+/* popular tour */
+
+.popular-tour{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-container{
+    max-width: 750px;
+}
+
+.text-container{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text-container h1, li, p{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+.text-container ul{
+    max-width: 525px;
+}
+
+.image-container{
+    justify-content: flex-end;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+    .container{
+        margin-bottom: 0px;
+    }
+    .nav-list{
+        display: none;
+    }
+
+    .logo{
+        gap: 7px;
+    }
+
+    .logo img{
+        width: 35px;
+    }
+
+    .logo h3{
+        font-size: 1.5rem;
+    }
+    .menu{
+        display: block;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .banner{
+        gap:20px
+    }
+
+    .form{
+        max-width: 400px;
+        backdrop-filter: blur(0.1px);
+        background: rgba(255, 255, 255, 0.259);
+        padding: 6px;
+        border-radius: 8px;
+        gap: 24px;
+    }
+    .form input, select, .btn-primary{
+        width: 200px;
+        margin: 10px auto;
+    }
+    .form input{
+        width: 180px;
+        height: 32px;
+        padding: 10px;
+    }
+    .banner h1{
+        font-size: 1.375rem;
+    }
+
+    .banner p{
+        max-width: 340px;
+        font-size: 0.9rem;
+    }
+    .popular-tour{
+        flex-direction: column;
+        margin-top: 24px;
+        gap: 37px;
+    }
+
+    .title{
+        font-size: 1.6rem;
+    }
+
+    .text-container{
+        gap: 14px;
+    }
+
+
+    .regular-text{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .text-container h1, li, p {
+        letter-spacing: 0.5px;
+        word-spacing: 1.5px;
+        line-height: 28px;
+    }
+    .btn-primary{
+        margin: 10px 0;
+    }
+
+    }
