@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="">
+    <header>
         <nav class="nav-bar flex container">
             <div class="logo flex">
                 <img src="./Images/logo.png" alt="">
@@ -29,9 +29,10 @@
         </nav>
         <section class="banner flex container">
             <h1>Explore Your Travel</h1>
-            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-            <div class="form flex">
-                <form action="">
+            <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis
+                sapien urna eu phasellus.</p>
+            <div class="flex main-form">
+                <form action="" class="first-form flex">
                     <input type="text" name="" id="" placeholder="Where go">
                     <select name="" id="">
                         <option value="">When</option>
@@ -47,24 +48,131 @@
     <main class="container">
         <section class="popular-tour flex">
             <div class="text-container flex">
-             <h1 class="title">Our Popular Tours</h1>
-             <p class="regular-text">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>  
-             <ul>
-                <li class="regular-text">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li> <br>
-                <li class="regular-text">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li> <br>
-                <li class="regular-text"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>    
-             </ul>
-             <p class="regular-text">Amet consectetur. Vulputate commodo felis molestie risus 
-                ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
-            <button class="btn-primary">Read More</button>      
+                <h1 class="title">Our Popular Tours</h1>
+                <p class="regular-text">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
+                    massa. Sodales dictumst nec nibh pellentesque.</p>
+                <ul>
+                    <li class="regular-text">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio
+                        neque diam. Sociis erat at .</li> <br>
+                    <li class="regular-text">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta
+                        lacus. Lectus suspendisse nullam.</li> <br>
+                    <li class="regular-text"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus
+                        at in.</li>
+                </ul>
+                <p class="regular-text">Amet consectetur. Vulputate commodo felis molestie risus
+                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
+                    natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                <button class="btn-primary">Read More</button>
             </div>
             <div class="image-container flex">
                 <img src="./Images/mounten.png" alt="">
             </div>
         </section>
+        <section class="destination">
+            <h1 class="title">Choose Your Destination</h1>
+            <p class="text">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales
+                dictumst nec nibh pellentesque.</p>
+            <div class="row-1">
+                <div class="county-image"><img src="./Images/d-1.png" alt=" ">
+                    <p class="county-name">Maldives</p>
+                </div>
+                <div class="county-image"><img src="./Images/d-2.png" alt=" ">
+                    <p class="county-name">Indonesia</p>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="county-image"><img src="./Images/d-4.png" alt=" ">
+                    <p class="county-name">Srilanka</p>
+                </div>
+                <div class="county-image">
+                    <img src="./Images/d-5.png" alt=" ">
+                <p class="county-name">North America</p>
+                </div>
+                <div class="county-image"><img src="./Images/d-6.png" alt=" ">
+                    <p class="county-name">Kashmir</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="county-image"><img src="./Images/d-7.png" alt=" ">
+                    <p class="county-name">Bangladesh</p>
+                </div>
+                <div class="county-image"><img src="./Images/d-8.png" alt=" ">
+                    <p class="county-name">Bandarban</p>
+                </div>
+            </div>
+        </section>
+        <section class="services"> 
+            <h1 class="title text-align">Why Choose Us</h1>
+            <p class="text text-align">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            <div class="card-container">
+                <div class="card flex">
+                    <div class="card-image">
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
+                    <h4>Handpicked Hotels</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+                <div class="card flex" id="card-2">
+                    <div class="card-image">
+                        <i class="fa-solid fa-map-location"></i>
+                    </div>
+                    <h4>World Class Service</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+                <div class="card flex" id="card-3">
+                    <div class="card-image">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+                    <h4>Best Price Guarantee</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+            </div>
+        </section>
+        <section class="tour flex">
+            <div class="tour-text">
+                <h1 class="title">A Simple Perfect Place To Get Lost</h1>
+                <p class="text">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
+                <ul>
+                    <li class="list-item">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                    <li class="list-item">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                </ul>
+                <button class="btn-primary">See More</button>
+            </div>
+            <div class="tour-video">
+                <video src="https://videos.pexels.com/video-files/2657265/2657265-uhd_2560_1440_24fps.mp4" controls></video>
+            </div>
+        </section>
+        <section class="newsletter flex">
+            <div class="newsletter-form">
+                <h4>Newsletter</h4>
+                <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                hr
+                <form action="" class="feedback">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn-primary" id="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="offer-image">
+                <img src="./Images/offer.png" alt="">
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer flex">
+        <div class="logo flex">
+            <img src="./Images/logo.png" alt="">
+            <h3>Hero <span class="orange-text">Travel</span></h3>
+        </div>
+        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente qui nostrum <br> perspiciatis veniam nemo dolor esse aperiam beatae sed magnam.</p>
+        <div class="icon flex">
+        <img src="./icon/Facebook.png" alt=""><img src="./icon/Instagram.png" alt=""><img src="./icon/Linkedin.png" alt=""><img src="./icon/Twitter.png" alt="">
+        </div>
+        <div class="line">
+            <hr>
+        </div>
+        
+        <p class="text">2017, All Right Reserved</p>
     </footer>
 </body>
 
